@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TopHeader.master.cs" Inherits="Online_Money_Transaction.TopHeader" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Online Money Transaction</title>
+    <style>
+         body{
+             padding:0;
+             margin:0;
+         }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div style="background-color:snow">
+                <div align="Center" style="background-color:navy;width:auto;height:30px;padding-top:5px;">
+                    <span style="color:whitesmoke; font-weight:200;">Online Money Transaction</span>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
